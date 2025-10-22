@@ -1,0 +1,190 @@
+{
+  "overview": {
+    "analysis_date": "2025-10-21",
+    "papers_analyzed": 3,
+    "total_participants_quantitative": 351,
+    "total_participants_qualitative": 40,
+    "note": "Correlation analysis based primarily on Mizrak et al. (2025) quantitative data. Stanton et al. (2016) provided qualitative evidence only. Reeves et al. (2021) was a theoretical review."
+  },
+  "experience_fatigue_relationship": {
+    "primary_finding": {
+      "correlation_r": 0.15,
+      "p_value": "<0.01",
+      "n": 351,
+      "interpretation": "Weak positive correlation between years of experience and cybersecurity fatigue",
+      "source": "Mizrak et al. (2025)",
+      "statistical_significance": "Statistically significant",
+      "effect_size": "Small but meaningful"
+    },
+    "context": "While the correlation is statistically significant, the small effect size (r=0.15) suggests experience is one of many factors contributing to cybersecurity fatigue, not a primary driver."
+  },
+  "key_correlations_from_research": {
+    "fatigue_mental_health": {
+      "r": -0.35,
+      "p": "<0.01",
+      "n": 351,
+      "interpretation": "Moderate negative correlation - higher fatigue associated with worse mental health",
+      "source": "Mizrak et al. (2025)"
+    },
+    "fatigue_productivity": {
+      "r": -0.48,
+      "p": "<0.01",
+      "n": 351,
+      "interpretation": "Moderate negative correlation - higher fatigue associated with lower productivity",
+      "source": "Mizrak et al. (2025)"
+    },
+    "mental_health_productivity": {
+      "r": 0.42,
+      "p": "<0.01",
+      "n": 351,
+      "interpretation": "Moderate positive correlation - better mental health associated with higher productivity",
+      "source": "Mizrak et al. (2025)"
+    },
+    "fatigue_sector": {
+      "r": 0.22,
+      "p": "<0.01",
+      "n": 351,
+      "interpretation": "Weak positive correlation - certain sectors experience more fatigue",
+      "source": "Mizrak et al. (2025)",
+      "note": "Healthcare professionals reported highest fatigue levels"
+    },
+    "fatigue_job_position": {
+      "r": -0.19,
+      "p": "<0.01",
+      "n": 351,
+      "interpretation": "Weak negative correlation - job position relates to fatigue levels",
+      "source": "Mizrak et al. (2025)"
+    }
+  },
+  "regression_analysis": {
+    "fatigue_predicts_productivity": {
+      "beta": -0.45,
+      "p_value": 0.002,
+      "r_squared": 0.36,
+      "interpretation": "Cybersecurity fatigue explains 36% of variance in productivity",
+      "source": "Mizrak et al. (2025)"
+    },
+    "fatigue_predicts_mental_health": {
+      "beta": -0.32,
+      "p_value": 0.004,
+      "r_squared": 0.28,
+      "interpretation": "Cybersecurity fatigue explains 28% of variance in mental health outcomes",
+      "source": "Mizrak et al. (2025)"
+    }
+  },
+  "structural_equation_modeling": {
+    "model_fit": {
+      "CFI": 0.95,
+      "TLI": 0.93,
+      "RMSEA": 0.04,
+      "SRMR": 0.048,
+      "interpretation": "Excellent model fit - all indices exceed recommended thresholds"
+    },
+    "path_coefficients": {
+      "fatigue_to_mental_health": {
+        "coefficient": -0.3611,
+        "p": "<0.001",
+        "r_squared": 0.654,
+        "interpretation": "Strong negative direct effect of fatigue on mental health"
+      },
+      "fatigue_to_productivity": {
+        "coefficient": -0.5055,
+        "p": "<0.001",
+        "r_squared": 0.928,
+        "interpretation": "Very strong negative direct effect of fatigue on productivity"
+      },
+      "support_to_productivity": {
+        "coefficient": 0.6218,
+        "p": "<0.001",
+        "r_squared": 0.748,
+        "interpretation": "Strong positive effect of mental health support on productivity"
+      }
+    }
+  },
+  "by_sector": {
+    "healthcare": {
+      "fatigue_level": "Highest reported",
+      "n": 71,
+      "percentage_of_sample": 20.2,
+      "source": "Mizrak et al. (2025)"
+    },
+    "information_technology": {
+      "productivity_level": "Highest reported",
+      "n": 72,
+      "percentage_of_sample": 20.5,
+      "source": "Mizrak et al. (2025)"
+    },
+    "finance": {
+      "n": 69,
+      "percentage_of_sample": 19.7,
+      "source": "Mizrak et al. (2025)"
+    },
+    "education": {
+      "n": 70,
+      "percentage_of_sample": 19.9,
+      "source": "Mizrak et al. (2025)"
+    }
+  },
+  "qualitative_insights": {
+    "fatigue_prevalence": {
+      "percentage": 62.5,
+      "n": 40,
+      "manifestations": 5,
+      "contributing_factors": 4,
+      "source": "Stanton et al. (2016)",
+      "note": "First empirical evidence of security fatigue phenomenon"
+    },
+    "theoretical_model": {
+      "fatigue_types": ["Attitudinal-type fatigue", "Cognitive-type fatigue"],
+      "fatigue_sources": ["Action-related fatigue", "Advice-related fatigue"],
+      "framework": "Burnout Theory (Maslach, 1998)",
+      "source": "Reeves et al. (2021)"
+    }
+  },
+  "intervention_effectiveness": {
+    "digital_detox": {
+      "finding": "Effectively reduces cybersecurity fatigue",
+      "evidence": "Hypothesis H4 supported",
+      "source": "Mizrak et al. (2025)"
+    },
+    "mental_health_resources": {
+      "finding": "Mitigates negative effects of fatigue on productivity",
+      "path_coefficient": 0.6218,
+      "evidence": "Hypothesis H5 supported",
+      "source": "Mizrak et al. (2025)"
+    },
+    "protocol_simplification": {
+      "recommendations": [
+        "Single sign-on (SSO) systems",
+        "Reduce password change frequency",
+        "Limit security alerts to critical only",
+        "Automate routine tasks"
+      ],
+      "evidence": "Recommended across all three papers"
+    }
+  },
+  "synthesis": {
+    "main_conclusion": "Cybersecurity fatigue is a real and measurable phenomenon that negatively impacts both productivity and mental health across multiple sectors",
+    "experience_role": "Years of experience shows a small but significant positive correlation with fatigue (r=0.15), suggesting experienced professionals may face slightly higher fatigue levels, though this is not the primary driver",
+    "primary_drivers": [
+      "Repetitive security tasks (decision fatigue)",
+      "Cognitive overload from complex requirements",
+      "Lack of perceived benefit from security behaviors",
+      "Sector-specific demands (especially healthcare)"
+    ],
+    "strongest_relationships": [
+      "Fatigue → Productivity (β=-0.51, SEM path coefficient)",
+      "Mental Health Support → Productivity (β=0.62, SEM path coefficient)",
+      "Fatigue → Productivity (r=-0.48, correlation)"
+    ],
+    "evidence_quality": "High - progression from qualitative discovery (2016) to theoretical framework (2021) to quantitative validation with SEM (2025)",
+    "practical_implications": "Organizations should prioritize simplifying security protocols, implementing digital detox policies, and providing mental health resources to mitigate cybersecurity fatigue"
+  },
+  "limitations": {
+    "meta_analysis_not_performed": "Raw data from individual studies not available for true meta-analysis",
+    "limited_experience_data": "Only one paper (Mizrak et al., 2025) provided quantitative correlation between experience and fatigue",
+    "cross_sectional_design": "Correlation does not imply causation; longitudinal studies needed",
+    "sector_coverage": "Limited to four sectors (IT, healthcare, finance, education)",
+    "geographic_scope": "Studies conducted in US and Turkey only"
+  }
+}

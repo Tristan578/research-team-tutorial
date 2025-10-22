@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "ABSOLUTE_PATH_TO_YOUR_PAPERS_FOLDER"
+      ],
+      "description": "Provides read-only access to research papers"
+    }
+  }
+}

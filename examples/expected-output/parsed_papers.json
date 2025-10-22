@@ -1,0 +1,262 @@
+{
+  "papers": [
+    {
+      "metadata": {
+        "authors": ["Stanton, Brian", "Theofanos, Mary F.", "Prettyman, Sandra Spickard", "Furman, Susanne"],
+        "year": 2016,
+        "title": "Security Fatigue",
+        "venue": "IT Professional, IEEE Computer Society"
+      },
+      "study": {
+        "total_participants": 40,
+        "study_type": "qualitative interview study",
+        "instruments": ["Semi-structured interviews", "Demographic questionnaires", "Self-assessment of computer knowledge"],
+        "data_collection_period": "January to March 2011",
+        "analysis_method": "Qualitative coding with inter-coder reliability checks"
+      },
+      "groups": [
+        {
+          "name": "Washington DC Metropolitan Area",
+          "sample_size": 27,
+          "age_range": "21-59",
+          "gender_distribution": {
+            "male": 11,
+            "female": 16
+          }
+        },
+        {
+          "name": "Central Pennsylvania",
+          "sample_size": 13,
+          "age_range": "21-60+",
+          "gender_distribution": {
+            "male": 7,
+            "female": 6
+          }
+        }
+      ],
+      "key_findings": {
+        "fatigue_prevalence": "Security fatigue emerged in 25 out of 40 interviews (62.5%)",
+        "manifestations": [
+          "Desensitization to security warnings",
+          "Weariness from constant security demands",
+          "Resignation and loss of control",
+          "Avoidance of security decisions",
+          "Choosing easiest available security options"
+        ],
+        "contributing_factors": [
+          "Decision fatigue from repetitive security tasks",
+          "Cognitive overload from complex security requirements",
+          "Lack of perceived benefit from security behaviors",
+          "Perception that threats won't affect them personally"
+        ]
+      },
+      "statistics": {
+        "qualitative_evidence": "More than 8 single-spaced pages of data related to security fatigue",
+        "coding_saturation": "Reached after coding multiple interviews until no new properties emerged"
+      },
+      "recommendations": [
+        "Limit the decisions users have to make related to security",
+        "Make it easy for users to do the right thing related to security",
+        "Provide consistency in the decisions users need to make"
+      ]
+    },
+    {
+      "metadata": {
+        "authors": ["Reeves, A.", "Delfabbro, P.", "Calic, D."],
+        "year": 2021,
+        "title": "Encouraging Employee Engagement With Cybersecurity: How to Tackle Cyber Fatigue",
+        "venue": "SAGE Open"
+      },
+      "study": {
+        "total_participants": "Not specified in excerpt",
+        "study_type": "literature review and theoretical model development",
+        "instruments": ["Four-component model of cybersecurity fatigue"],
+        "theoretical_framework": "Burnout Theory (Maslach, 1998)"
+      },
+      "key_findings": {
+        "fatigue_dimensions": {
+          "fatigue_type": ["Attitudinal-type fatigue", "Cognitive-type fatigue"],
+          "fatigue_source": ["Action-related fatigue", "Advice-related fatigue"]
+        },
+        "cognitive_fatigue_factors": [
+          "Ego depletion from self-regulatory tasks",
+          "Decision fatigue from repetitive security decisions",
+          "Habituation to security warnings and alerts",
+          "Mental fatigue from constant cognitive demands"
+        ],
+        "attitudinal_fatigue_factors": [
+          "Reactance to restrictive security policies",
+          "Poor perception of cost-benefit tradeoffs",
+          "Moral disengagement from security responsibilities",
+          "Burnout from technostress and overload"
+        ]
+      },
+      "statistics": {
+        "training_effectiveness": "Employees with more frequent formal cyber security training were less likely to correctly distinguish phishing emails (Parsons et al., 2013)",
+        "awareness_paradox": "Individuals who received formal cybersecurity training outside workplace had poorer awareness of risks (Pattinson et al., 2016)"
+      },
+      "theoretical_contributions": {
+        "model_components": 4,
+        "fatigue_types": 2,
+        "fatigue_sources": 2,
+        "contributing_factors_identified": 7
+      },
+      "recommendations": [
+        "Simplify cybersecurity protocols (e.g., single sign-on systems)",
+        "Implement digital detox practices",
+        "Provide mental health support resources",
+        "Reduce repetitive security tasks through automation",
+        "Balance employee autonomy with security requirements"
+      ]
+    },
+    {
+      "metadata": {
+        "authors": ["Mizrak, Filiz", "Demirel, Hatice Gökçe", "Yaşar, Okan", "Karakaya, Turhan"],
+        "year": 2025,
+        "title": "Digital detox: exploring the impact of cybersecurity fatigue on employee productivity and mental health",
+        "venue": "Discover Mental Health"
+      },
+      "study": {
+        "total_participants": 351,
+        "study_type": "quantitative survey study",
+        "instruments": [
+          "Cybersecurity Fatigue Scale (CFS) - Cronbach's Alpha: 0.930",
+          "Maslach Burnout Inventory (MBI) - Cronbach's Alpha: 0.703",
+          "Work Limitations Questionnaire (WLQ) - Cronbach's Alpha: 0.777"
+        ],
+        "sectors_studied": ["Information Technology", "Finance", "Healthcare", "Education"],
+        "data_collection_method": "Online survey via email and LinkedIn",
+        "analysis_methods": ["Descriptive statistics", "Spearman correlation", "Multiple regression", "Structural Equation Modeling (SEM)"]
+      },
+      "groups": [
+        {
+          "name": "Information Technology",
+          "sample_size": 72,
+          "percentage": 20.5,
+          "fatigue_mean": "Not specified individually",
+          "fatigue_sd": "Not specified individually"
+        },
+        {
+          "name": "Healthcare",
+          "sample_size": 71,
+          "percentage": 20.2,
+          "fatigue_mean": "Highest levels reported",
+          "fatigue_sd": "Not specified individually"
+        },
+        {
+          "name": "Finance",
+          "sample_size": 69,
+          "percentage": 19.7,
+          "fatigue_mean": "Not specified individually",
+          "fatigue_sd": "Not specified individually"
+        },
+        {
+          "name": "Education",
+          "sample_size": 70,
+          "percentage": 19.9,
+          "fatigue_mean": "Not specified individually",
+          "fatigue_sd": "Not specified individually"
+        },
+        {
+          "name": "All Participants Combined",
+          "sample_size": 351,
+          "percentage": 100,
+          "cybersecurity_fatigue_mean": 3.6,
+          "cybersecurity_fatigue_sd": 0.8,
+          "mental_health_mean": 3.2,
+          "mental_health_sd": 0.9
+        }
+      ],
+      "statistics": {
+        "correlation_r": {
+          "fatigue_mental_health": -0.35,
+          "fatigue_productivity": -0.48,
+          "mental_health_productivity": 0.42,
+          "fatigue_sector": 0.22,
+          "fatigue_job_position": -0.19,
+          "fatigue_experience": 0.15
+        },
+        "p_values": "All correlations reported were statistically significant (p < 0.01)",
+        "regression_results": {
+          "fatigue_predicts_productivity": {
+            "beta": -0.45,
+            "p_value": 0.002,
+            "r_squared": 0.36
+          },
+          "fatigue_predicts_mental_health": {
+            "beta": -0.32,
+            "p_value": 0.004,
+            "r_squared": 0.28
+          }
+        },
+        "sem_results": {
+          "fatigue_to_mental_health": {
+            "path_coefficient": -0.3611,
+            "p_value": "<0.001",
+            "r_squared": 0.654
+          },
+          "fatigue_to_productivity": {
+            "path_coefficient": -0.5055,
+            "p_value": "<0.001",
+            "r_squared": 0.928
+          },
+          "support_to_productivity": {
+            "path_coefficient": 0.6218,
+            "p_value": "<0.001",
+            "r_squared": 0.748
+          }
+        },
+        "model_fit_indices": {
+          "CFI": 0.95,
+          "TLI": 0.93,
+          "RMSEA": 0.04,
+          "SRMR": 0.048
+        }
+      },
+      "key_findings": {
+        "hypothesis_results": {
+          "H1": "Supported - High frequency of cybersecurity exposure significantly increases fatigue",
+          "H2": "Supported - Cybersecurity fatigue significantly decreases productivity",
+          "H3": "Supported - Strong correlation between fatigue and mental health problems (stress, anxiety, burnout)",
+          "H4": "Supported - Digital detox initiatives effectively reduce fatigue",
+          "H5": "Supported - Mental health resources mitigate effects of fatigue on productivity"
+        },
+        "sector_differences": "Healthcare professionals reported highest fatigue levels, IT professionals reported highest productivity",
+        "moderating_effects": "Mental health support and digital detox initiatives significantly moderate the negative effects of fatigue"
+      },
+      "recommendations": [
+        "Simplify multi-factor authentication procedures",
+        "Reduce frequency of forced password changes",
+        "Limit security alerts to critical notifications only",
+        "Automate routine security tasks (patch management, log monitoring)",
+        "Implement digital detox periods (limit after-hours security demands)",
+        "Provide mental health counseling services",
+        "Offer stress management and resilience training programs",
+        "Use single sign-on (SSO) systems to reduce cognitive load",
+        "Implement rotational shifts for cybersecurity teams"
+      ]
+    }
+  ],
+  "cross_paper_analysis": {
+    "common_themes": [
+      "Cybersecurity fatigue is a significant and growing phenomenon",
+      "Fatigue manifests through both cognitive and emotional exhaustion",
+      "Decision fatigue and cognitive overload are primary contributors",
+      "Repetitive security tasks lead to habituation and disengagement",
+      "Burnout Theory provides theoretical foundation for understanding fatigue",
+      "Mental health support is critical for mitigation",
+      "Simplification of security protocols reduces fatigue",
+      "High-demand sectors (IT, healthcare, finance) particularly affected"
+    ],
+    "methodological_progression": [
+      "2016: Qualitative exploration (Stanton et al.) - 40 interviews",
+      "2021: Theoretical framework development (Reeves et al.) - Four-component model",
+      "2025: Quantitative validation (Mizrak et al.) - 351 participants, SEM analysis"
+    ],
+    "evolution_of_understanding": {
+      "early_work": "Identified security fatigue through qualitative interviews, described manifestations",
+      "middle_work": "Developed theoretical model distinguishing fatigue types and sources",
+      "recent_work": "Quantitatively validated relationships, measured effect sizes, tested interventions"
+    }
+  }
+}

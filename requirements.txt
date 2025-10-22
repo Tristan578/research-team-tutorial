@@ -1,0 +1,8 @@
+# Python dependencies for cybersecurity fatigue research tools
+
+# PDF processing
+PyPDF2==3.0.1
+
+# Statistical analysis
+scipy==1.11.4
+numpy==1.26.2

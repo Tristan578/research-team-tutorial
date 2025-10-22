@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Read(//c/Users/Nolan/Downloads/**)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Multi-agent research system tutorial\n\nThis tutorial teaches users to build a coordinated team of AI agents\nusing Claude Code that analyzes academic research papers.\n\nFeatures:\n- 4 specialized agents (orchestrator, researcher, copywriter, antagonist)\n- Automatic PDF data extraction\n- Statistical analysis (correlation, Fisher z-transformation)\n- Professional article writing with citations\n- Quality review and revision loops\n\nIncludes:\n- Complete skill definitions in .claude/skills/\n- Python tools for PDF and statistical analysis\n- MCP configuration for secure file access\n- Comprehensive documentation (README, RUN-PROJECT, CLAUDE.md)\n- Tutorial improvement recommendations (revisions.md)\n- Example outputs from successful workflow run\n\nGenerated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
