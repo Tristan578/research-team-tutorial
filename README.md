@@ -442,7 +442,6 @@ MIT License - See LICENSE file for details
 
 Questions or issues?
 - Check [RUN-PROJECT.md](RUN-PROJECT.md) for execution help
-- Review [revisions.md](revisions.md) for known improvements
 - Open an issue on GitHub
 
 ---
